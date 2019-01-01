@@ -6,8 +6,12 @@ public class Conn_test
 	throws Exception{
 		Connection con=DriverManager.getConnection
 				("jdbc:oracle:thin:@localhost:1521:orcl","system","sagar9027");
-		
-		
+		if (con==null)
+		{
+			System.out.println("Connection failed");
+		}
+		else
+			System.out.println("Connection successful");
 	}
 
 }
