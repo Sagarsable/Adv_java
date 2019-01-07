@@ -1,4 +1,4 @@
-package nataraj_sir;
+package com.java.jdbc;
 import java.sql.*;
 import java.util.Scanner;
 public class selecttest2 
