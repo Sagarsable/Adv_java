@@ -1,13 +1,21 @@
-package com.java.jdbc;
-import java.sql.*;
-public class selecttest1 
-{
+package com.java.SimpleStatement;
+/*
+ * in database this student database is not create,
+ * this program only understanding purpose */
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class Select_test1 {
+
 	public static void main(String args[])
 	throws Exception
 	{
 		//Establish database connection
 		Connection con=DriverManager.getConnection
-			("jdbc:oracle:thin:@localhost:1521:orcl","system","sagar9027");
+			("jdbc:oracle:thin:@localhost:1521:xe","system","sagar9027");
 	//create jdbc statement object
 		Statement st=con.createStatement();
 		String query="SELECT * FROM student";
