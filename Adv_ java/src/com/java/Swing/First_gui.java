@@ -18,7 +18,7 @@ class abc extends JFrame
 {
 	abc()
 	{
-		// imp swing code
+		// Boiler plate swing code
 		setLayout(new FlowLayout());
 		setVisible(true);
 		setSize(400,400);	
@@ -27,10 +27,10 @@ class abc extends JFrame
 		// create user name field
 		// create java label
 		JLabel luname=new JLabel("\nEnter User Name:");
-		// create java text field
-		JTextField jutext=new JTextField(20);
+	    JTextField jutext=new JTextField(20);
 		add(luname);add(jutext);
 		System.out.println();
+		
 		//create password field
 		JLabel lpass_name=new JLabel("\nEnter Password:");
 		JTextField jpass_text=new JTextField(20);
