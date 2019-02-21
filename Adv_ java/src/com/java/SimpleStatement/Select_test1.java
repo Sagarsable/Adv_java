@@ -1,7 +1,6 @@
 package com.java.SimpleStatement;
-/*
- * in database this student database is not create,
- * this program only understanding purpose */
+
+ 
 
 import java.sql.Connection;
 import java.sql.DriverManager;

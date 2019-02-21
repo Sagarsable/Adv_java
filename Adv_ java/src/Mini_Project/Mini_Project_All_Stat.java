@@ -285,8 +285,8 @@ public class Mini_Project_All_Stat extends JFrame implements ActionListener {
 		catch(SQLException se)
 		{
 			se.printStackTrace();
-		}
-		
 		}//catch
-	}// window adapter(inner class0
+		
+	}//try
+  }// window adapter(inner class0
 }//class
